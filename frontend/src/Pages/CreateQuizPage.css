@@ -1,0 +1,33 @@
+.create-quiz-container{
+    width: calc(100vw - 287px);
+    margin-left: 287px;
+    height: calc(100vh - 71px);
+    margin-top: 71px;
+    align-content: center;
+    justify-content: center !important;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.custom-button{
+    width: 375px;
+    height: 240px;
+    background: rgba(101, 85, 143, 1);
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    margin-top: 150px;
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-button:hover{
+    background: rgb(81, 67, 114);
+    cursor: pointer;
+}
